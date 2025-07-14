@@ -1,0 +1,3 @@
+project pipeline: (Miro board): https://miro.com/app/board/uXjVIGDZqY4=/?share_link_id=199214865075
+
+dataset (google drive): https://drive.google.com/drive/folders/1OR1ns9Z1mjzYx2gLvT9axxr-2FM5RcTs?usp=drive_link
