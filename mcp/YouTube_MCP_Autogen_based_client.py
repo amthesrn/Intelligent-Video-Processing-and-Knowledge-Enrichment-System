@@ -1,5 +1,4 @@
 # # Youtube_mcp_client.py
-# working version
 
 import sys
 import os
