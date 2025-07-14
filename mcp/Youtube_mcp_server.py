@@ -27,9 +27,9 @@ logger = logging.getLogger("youtube-mcp-server")
 if sys.version_info >= (3, 8):
     asyncio.get_event_loop().set_debug(True)
 
-GEMINI_API_KEY = "AIzaSyD_6BTDHBsxCNmm-izSnaZ979YrqHZXWGI"
+GEMINI_API_KEY = "your_gemini_api_key"
 GEMINI_MODEL_NAME = "gemini-1.5-flash-latest"
-YOUTUBE_API_KEY = "AIzaSyDvw_pl2Dw4BgYUasImJEGEQNg7kCQwrgU"
+YOUTUBE_API_KEY = "your_youtube_api_key"
 
 # Get script directory for relative paths
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
