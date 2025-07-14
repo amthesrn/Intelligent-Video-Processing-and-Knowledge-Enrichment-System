@@ -64,7 +64,7 @@ async def main() -> None:
     script_dir = os.path.dirname(os.path.abspath(__file__))
     server_paths = [
         os.path.join(script_dir, "youtube_mcp_server.py"),
-        "E:\\autogen_folder\\Youtube-Vision-MCP-main\\dist\\youtube_mcp_server.py"
+        "path_to\\youtube_mcp_server.py"
     ]
 
     server_path = None
@@ -89,7 +89,7 @@ async def main() -> None:
     try:
         gemini_client = OpenAIChatCompletionClient(
             model="gemini-2.0-flash",
-            api_key=os.getenv("GEMINI_API_KEY", "AIzaSyD_6BTDHBsxCNmm-izSnaZ979YrqHZXWGI")
+            api_key=os.getenv("GEMINI_API_KEY", "your_api_key")
         )
         logger.info("✅ Gemini client ready.")
     except Exception as e:
