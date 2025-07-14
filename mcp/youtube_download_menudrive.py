@@ -397,11 +397,11 @@ def main():
         rotate_log_file(log_dir="video_log", log_file="logger.log", max_size_mb=10)
         logger = setup_logger(log_dir="video_log", log_file="logger.log")
         config = Config(
-            api_key="AIzaSyD_6BTDHBsxCNmm-izSnaZ979YrqHZXWGI",
-            youtube_api_key="AIzaSyDvw_pl2Dw4BgYUasImJEGEQNg7kCQwrgU",
+            api_key="Gemini_api_key",
+            youtube_api_key="youtube_api_key",
             model="gemini-2.0-flash",
             prompt_template_path="E:\\autogen_folder\\video_analyis\\prompt.jinja",
-            output_dir="output5"
+            output_dir="output_folder"
         )
         os.makedirs(config.output_dir, exist_ok=True)
         while True:
